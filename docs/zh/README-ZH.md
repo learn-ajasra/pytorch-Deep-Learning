@@ -1,7 +1,10 @@
-# 深度学习 (使用PyTorch) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Atcold/pytorch-Deep-Learning/master)
+# NYU Deep Learning Spring 2020 (NYU-DLSP20) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Atcold/NYU-DLSP20/master)
 
-这份笔记的仓库具有[同步网站](https://atcold.github.io/pytorch-Deep-Learning/zh/)，在那里您可以获得所有课程资料的视频与文本.
+这份笔记的仓库具有[同步网站](https://atcold.github.io/NYU-DLSP20/zh/)，在那里您可以获得所有课程资料的视频与文本.
 
+
+<!-- English - Mandarin - Korean - Spanish - Italian - Turkish - Japanese - Arabic - French - Farsi - Russian - Vietnamese - Serbian - Portuguese - Bengali - Hungarian -->
+[🇬🇧](https://github.com/Atcold/NYU-DLSP20/blob/master/README.md) &nbsp; [🇨🇳](https://github.com/Atcold/NYU-DLSP20/blob/master/docs/zh/README-ZH.md) &nbsp; [🇰🇷](https://github.com/Atcold/NYU-DLSP20/blob/master/docs/ko/README-KO.md) &nbsp; [🇪🇸](https://github.com/Atcold/NYU-DLSP20/blob/master/docs/es/README-ES.md) &nbsp; [🇮🇹](https://github.com/Atcold/NYU-DLSP20/blob/master/docs/it/README-IT.md) &nbsp; [🇹🇷](https://github.com/Atcold/NYU-DLSP20/blob/master/docs/tr/README-TR.md) &nbsp; [🇯🇵](https://github.com/Atcold/NYU-DLSP20/blob/master/docs/ja/README-JA.md) &nbsp; [🇸🇦](https://github.com/Atcold/NYU-DLSP20/blob/master/docs/ar/README-AR.md) &nbsp; [🇫🇷](https://github.com/Atcold/NYU-DLSP20/blob/master/docs/fr/README-FR.md) &nbsp; [🇮🇷](https://github.com/Atcold/NYU-DLSP20/blob/master/docs/fa/README-FA.md) &nbsp; [🇷🇺](https://github.com/Atcold/NYU-DLSP20/blob/master/docs/ru/README-RU.md) &nbsp; [🇻🇳](https://github.com/Atcold/NYU-DLSP20/blob/master/docs/vi/README-VI.md) &nbsp; [🇷🇸](https://github.com/Atcold/NYU-DLSP20/blob/master/docs/sr/README-SR.md) &nbsp; [🇵🇹](https://github.com/Atcold/NYU-DLSP20/blob/master/docs/pt/README-PT.md) &nbsp; [🇧🇩](https://github.com/Atcold/NYU-DLSP20/blob/master/docs/bn/README-BN.md) &nbsp; [🇭🇺](https://github.com/Atcold/NYU-DLSP20/blob/master/docs/hu/README-HU.md)
 
 # 开始
 
@@ -10,7 +13,7 @@
 
 ## 下载并安装Miniconda
 
-请前往[Anaconda网站](https://conda.io/miniconda.html)，下载并且安装适合你的操作系统的*最新*Miniconda版本。其中*Python*版本请选择3.8
+请前往[Anaconda网站](https://conda.io/miniconda.html)，下载并且安装适合你的操作系统的*最新*Miniconda版本。其中*Python*版本请选择 >3.8
 
 ```bash
 wget <http:// link to miniconda>
@@ -23,7 +26,7 @@ sh <miniconda*.sh>
 一旦你的Miniconda准备妥当，请下载课程的git仓库，同时建立Miniconda环境。
 
 ```bash
-git clone https://github.com/Atcold/pytorch-Deep-Learning
+git clone https://github.com/Atcold/NYU-DLSP20
 ```
 
 
@@ -32,9 +35,9 @@ git clone https://github.com/Atcold/pytorch-Deep-Learning
 进入课程目录(`cd`)， 然后键入：
 
 ```bash
-# cd pytorch-Deep-Learning
+# cd NYU-DLSP20
 conda env create -f environment.yml
-source activate pDL
+source activate NYU-DL
 ```
 
 

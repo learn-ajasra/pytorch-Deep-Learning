@@ -25,7 +25,8 @@ If you want to debug it locally, you need to install `jekyll`, starting by insta
 ```bash
 brew install ruby
 export PATH=/usr/local/opt/ruby/bin:$PATH
-gem install jekyll
+# or export PATH=/opt/homebrew/opt/ruby/bin:$PATH
+gem install jekyll webrick
 ```
 
 To figure out where `jekyll` has been installed, we can query `gem`:
@@ -34,17 +35,17 @@ To figure out where `jekyll` has been installed, we can query `gem`:
 gem environment gemdir
 ```
 
-which for me is `/usr/local/lib/ruby/gems/2.6.0`.
+which for me is `/usr/local/lib/ruby/gems/3.0.0`.
 
 ## Serve locally
 
 Given that we know where to find `jekyll`, we can serve the website with the following command:
 
 ```bash
-/usr/local/lib/ruby/gems/2.6.0/bin/jekyll serve --trace --baseurl '/pytorch-Deep-Learning'
+/usr/local/lib/ruby/gems/3.0.0/bin/jekyll serve --trace --baseurl '/pytorch-Deep-Learning'
 ```
 
-For your convenience there's an execturable in this directory containing this exact line. So, all you need to do to run the web server is typing:
+For your convenience there's an executable in this directory containing this exact line. So, all you need to do to run the web server is typing:
 
 ```bash
 ./serve.sh
@@ -68,4 +69,4 @@ en:
       - path: en/week02/02-3.md
 ```
 
-The images for a given `section` will be fetched from a folder having the same name of the `section`'s file name, without considering the file extension. So, images for the file `02-2.md` will be automatically retrieved from the `02-2\` directory. The file will not be rendered well here in the repo, but `jekyll` will do a good job on the besite.
+The images for a given `section` will be fetched from a folder having the same name of the `section`'s file name, without considering the file extension. So, images for the file `02-2.md` will be automatically retrieved from the `02-2\` directory. The file will not be rendered well here in the repo, but `jekyll` will do a good job on the website.

@@ -24,7 +24,7 @@ def pad_sequences(sequences, maxlen=None, dtype='int32',
             sample_shape = np.asarray(s).shape[1:]
             break
 
-    is_dtype_str = np.issubdtype(dtype, np.str_) or np.issubdtype(dtype, np.unicode_)
+    is_dtype_str = np.issubdtype(dtype, np.str_)
     if isinstance(value, six.string_types) and dtype != object and not is_dtype_str:
         raise ValueError("`dtype` {} is not compatible with `value`'s type: {}\n"
                          "You should set `dtype=object` for variable length strings."
@@ -122,8 +122,8 @@ class TemporalOrderExp6aSequence():
     From Hochreiter&Schmidhuber(1997):
 
         The goal is to classify sequences. Elements and targets are represented locally
-        (input vectors with only one non-zero bit). The sequence starts with an E, ends
-        with a B (the "trigger symbol") and otherwise consists of randomly chosen symbols
+        (input vectors with only one non-zero bit). The sequence starts with an B, ends
+        with a E (the "trigger symbol") and otherwise consists of randomly chosen symbols
         from the set {a, b, c, d} except for two elements at positions t1 and t2 that are
         either X or Y . The sequence length is randomly chosen between 100 and 110, t1 is
         randomly chosen between 10 and 20, and t2 is randomly chosen between 50 and 60.

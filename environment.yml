@@ -1,18 +1,17 @@
-name: pDL
+name: NYU-DL
 channels:
   - conda-forge
   - pytorch
 dependencies:
-  - python=3.8
+  - python
   - pip
   - matplotlib
-  - jupyter
   - jupyterlab
-  - pytorch>=1.4
-  - torchvision>=0.5
+  - ipympl
+  - pytorch
+  - torchvision
   - torchtext
   - opencv
   - librosa
-  - nb_conda_kernels
   - pip:
     - torchviz

@@ -1,9 +1,9 @@
-# Deep Learning (with PyTorch) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Atcold/pytorch-Deep-Learning/master)
+# NYU Deep Learning Spring 2020 (NYU-DLSP20) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Atcold/NYU-DLSP20/master)
 
-This notebook repository now has a [companion website](https://atcold.github.io/pytorch-Deep-Learning/), where all the course material can be found in video and textual format.
+This notebook repository now has a [companion website](https://atcold.github.io/NYU-DLSP20/), where all the course material can be found in video and textual format.
 
-
-这份`README.md`的中文版本及网站可以在[这里](https://github.com/Atcold/pytorch-Deep-Learning/blob/master/docs/zh/README-ZH.md)找到.
+<!-- English - Mandarin - Korean - Spanish - Italian - Turkish - Japanese - Arabic - French - Farsi - Russian - Vietnamese - Serbian - Portuguese -->
+[🇬🇧](https://github.com/Atcold/NYU-DLSP20/blob/master/README.md) &nbsp; [🇨🇳](https://github.com/Atcold/NYU-DLSP20/blob/master/docs/zh/README-ZH.md) &nbsp; [🇰🇷](https://github.com/Atcold/NYU-DLSP20/blob/master/docs/ko/README-KO.md) &nbsp; [🇪🇸](https://github.com/Atcold/NYU-DLSP20/blob/master/docs/es/README-ES.md) &nbsp; [🇮🇹](https://github.com/Atcold/NYU-DLSP20/blob/master/docs/it/README-IT.md) &nbsp; [🇹🇷](https://github.com/Atcold/NYU-DLSP20/blob/master/docs/tr/README-TR.md) &nbsp; [🇯🇵](https://github.com/Atcold/NYU-DLSP20/blob/master/docs/ja/README-JA.md) &nbsp; [🇸🇦](https://github.com/Atcold/NYU-DLSP20/blob/master/docs/ar/README-AR.md) &nbsp; [🇫🇷](https://github.com/Atcold/NYU-DLSP20/blob/master/docs/fr/README-FR.md) &nbsp; [🇮🇷](https://github.com/Atcold/NYU-DLSP20/blob/master/docs/fa/README-FA.md) &nbsp; [🇷🇺](https://github.com/Atcold/NYU-DLSP20/blob/master/docs/ru/README-RU.md) &nbsp; [🇻🇳](https://github.com/Atcold/NYU-DLSP20/blob/master/docs/vi/README-VI.md) &nbsp; [🇷🇸](https://github.com/Atcold/NYU-DLSP20/blob/master/docs/sr/README-SR.md) &nbsp; [🇵🇹](https://github.com/Atcold/NYU-DLSP20/blob/master/docs/pt/README-PT.md) &nbsp; [🇭🇺](https://github.com/Atcold/NYU-DLSP20/blob/master/docs/hu/README-HU.md)
 
 
 # Getting started
@@ -15,7 +15,7 @@ The following instruction would work as is for Mac or Ubuntu Linux users, Window
 ## Download and install Miniconda
 
 Please go to the [Anaconda website](https://conda.io/miniconda.html).
-Download and install *the latest* Miniconda version for *Python* 3.7 for your operating system.
+Download and install *the latest* Miniconda version for *Python* $\geq$ 3.7 for your operating system.
 
 ```bash
 wget <http:// link to miniconda>
@@ -28,7 +28,7 @@ sh <miniconda*.sh>
 Once Miniconda is ready, checkout the course repository and proceed with setting up the environment:
 
 ```bash
-git clone https://github.com/Atcold/pytorch-Deep-Learning
+git clone https://github.com/Atcold/NYU-DLSP20.git
 ```
 
 
@@ -37,9 +37,9 @@ git clone https://github.com/Atcold/pytorch-Deep-Learning
 Change directory (`cd`) into the course folder, then type:
 
 ```bash
-# cd pytorch-Deep-Learning
+# cd NYU-DLSP20
 conda env create -f environment.yml
-source activate pDL
+source activate NYU-DL
 ```
 
 
@@ -69,4 +69,3 @@ To see the content appropriately in the classic interface install the following:
 
  - [*Jupyter Notebook* dark theme](https://userstyles.org/styles/153443/jupyter-notebook-dark);
  - [*GitHub* dark theme](https://userstyles.org/styles/37035/github-dark) and comment out the `invert #fff to #181818` code block.
-
